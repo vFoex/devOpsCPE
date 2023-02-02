@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TP3
 
 ## 3-1
@@ -71,3 +72,8 @@ On retire le serveur Apache avec :
   roles:
     - docker #Ajout du roles
 ```
+=======
+# TP 3
+
+Ajout du front (voir le TP extra)
+>>>>>>> 26f4bbe627b380e86ba6cb00459942dbcc8cadbc
