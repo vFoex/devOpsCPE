@@ -1,0 +1,8 @@
+- name: Run HTTPD
+  docker_container:
+    name: httpd
+    image: vfoex/httpd
+    network_mode: app-network
+    ports:
+      - "80:80"
+      - "8080:8080"

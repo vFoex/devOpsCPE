@@ -1,0 +1,5 @@
+- name: Run DATABASE
+  docker_container:
+    name: database
+    image: vfoex/database
+    network_mode: app-network

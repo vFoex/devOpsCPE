@@ -1,0 +1,4 @@
+- name: Create Network
+  command:
+    cmd: docker network create app-network
+    state: present

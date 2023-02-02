@@ -1,0 +1,7 @@
+- name: Run FRONT
+  docker_container:
+    name: front
+    image: vfoex/front:1.0
+    network_mode: app-network
+    env:
+      VUE_APP_API_URL: "http://valentin.foex.takima.cloud:8080"

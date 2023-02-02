@@ -1,0 +1,11 @@
+- name: Run BACKEND-BLUE
+  docker_container:
+    name: backend-blue
+    image: vfoex/backend-blue
+    network_mode: app-network
+
+- name: Run BACKEND-GREEN
+  docker_container:
+    name: backend-green
+    image: vfoex/backend-green
+    network_mode: app-network
