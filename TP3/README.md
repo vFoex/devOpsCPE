@@ -1,6 +1,8 @@
 <<<<<<< HEAD
 # TP3
 
+!!! LE FRONT ET LES FICHIERS SE TROUVENT DANS LE TP EXTRA !!!
+
 ## 3-1
 
 Setup :
